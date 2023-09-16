@@ -77,7 +77,7 @@ const config = {
             label: "Tutorial",
           },
           {
-            href: "https://bisratawoke.ddns.net/",
+            href: "https://dancing-squirrel-ad642d.netlify.app/",
             label: "Bio",
             position: "left",
           },
@@ -118,7 +118,7 @@ const config = {
             items: [
               {
                 label: "Personal Website",
-                href: "https://bisratawoke.ddns.net/",
+                href: "https://dancing-squirrel-ad642d.netlify.app/",
               },
             ],
           },

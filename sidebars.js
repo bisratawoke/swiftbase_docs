@@ -22,7 +22,12 @@ const sidebars = {
     {
       type: "category",
       label: "Tutorial",
-      items: ["intro", "Static-site-deployment", "Lambda-function-deployment"],
+      items: [
+        "intro",
+        "Static-site-deployment",
+        "Lambda-function-deployment",
+        "swiftbase-db",
+      ],
     },
   ],
 };
