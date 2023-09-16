@@ -77,7 +77,7 @@ const config = {
             label: "Tutorial",
           },
           {
-            href: "https://dancing-squirrel-ad642d.netlify.app/",
+            href: "https://6505f2660c4f2c3eff04bb88--cheery-alfajores-4401bb.netlify.app/",
             label: "Bio",
             position: "left",
           },
@@ -118,7 +118,7 @@ const config = {
             items: [
               {
                 label: "Personal Website",
-                href: "https://dancing-squirrel-ad642d.netlify.app/",
+                href: "https://6505f2660c4f2c3eff04bb88--cheery-alfajores-4401bb.netlify.app/",
               },
             ],
           },

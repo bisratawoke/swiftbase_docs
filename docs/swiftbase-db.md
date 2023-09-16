@@ -68,7 +68,7 @@ N.B The authentication token will only be printed once in the terminal so make s
 ## Initialize swiftstore sdk
 
 ```javascript
-import { SwiftbaseDb } from "swiftbase_db_sdk";
+const { SwiftbaseDb } = require("swiftbase_db_sdk");
 ```
 
 Once you have imported the sdk you will need to create a new instance of SwiftbaseDb and it takes your authentication token in the constructor. After you have created your database connector you can start performing CRUD operations immediately.
@@ -128,7 +128,7 @@ dao.model("my_model").delete({ email: "john.doe@example.com" });
 Here is the entire code:
 
 ```javascript
-import { SwiftbaseDb } from "swiftbase_db_sdk";
+const { SwiftbaseDb } = require("swiftbase_db_sdk");
 const dao = new SwiftbaseDb("authentication_token");
 
 // Insert a record
