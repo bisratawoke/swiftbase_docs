@@ -45,10 +45,10 @@ After installing the swiftbase cli you can use the cli to bootstrap your project
 
 NB. When bootstapping your application swiftbase will ask you which services you want to include in your project and since this tutorial is about Lambda function deployment make sure to select the lambda service.
 
-Bootstrap your project by simply typing swiftbase in you terminal
+Bootstrap your project by simply typing swiftbase in you terminal, for more information follow [Basics](intro).
 
 ```bash
-swiftbase
+swiftbase init
 ```
 
 # Project directory

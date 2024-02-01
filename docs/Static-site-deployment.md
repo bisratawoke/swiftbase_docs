@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Static Site Deployment
 
-Deploy your Static Site application **in less than 3 click**.
+Deploy your Static Site application with ease.
 
 ## Introduction
 
@@ -22,7 +22,11 @@ Get started by **creating a new react application using vite**.
 
 ## Intialize your project
 
-Initialize a new project using the vite create script **npm create vite@latest** and follow the instuction to create your react application.
+Initialize a new react application using the vite create script and follow the instuction to create your react application.
+
+```bash
+npm create vite@latest
+```
 
 The script will automatically create all the files and directories needed to build a react application. Next cd into your react application and install all the required dependencies.
 
@@ -40,32 +44,32 @@ npm i swiftbase_cli
 
 ## Bootstrap your project
 
-After installing the swiftbase cli you can use the cli to bootstrap your project.The cli will be the tool that you will use to intract with the swiftbase backend. NB When bootstapping your application swiftbase will ask you which services you want to include in your project and since this tutorial is about static site deployment make sure to select the static site service.
-
+After installing the swiftbase cli you can use the cli to bootstrap your project. For more information follow [Basics](intro).
 Bootstrap your project by simply typing swiftbase in you terminal
 
 ```bash
-swiftbase
+swiftbase init
 ```
 
+## Project structure
+
+After initialization there will be a .swb file in the projects root directory which contains project configuration information such as project id and your access token.
+NB Make sure to not include the this file into your project repo as it contains sensitive information so keep it confidential at all cost!!
+
 ## Build your react application
+
+Swiftbase cli by defaults your deployment ready static files to be found inside and you run the command below vite will generate this directory.
 
 ```bash
 npm run build
 ```
 
-or if you are using powershell
-
-```powershell
-npx swiftbase
-```
-
 ## Deploy your react application
 
-Once you have written your code you can deploy you project by just typing the magic word `swiftbase` into your terminal.
+Once you have written your code you can deploy your project by just typing the magic word `swiftbase deploy` into your terminal.
 
 ```bash
-swiftbase
+swiftbase deploy
 ```
 
 or if you are using powershell

@@ -53,17 +53,17 @@ After installing the swiftbase cli you can use the cli to bootstrap your project
 
 NB. When bootstapping your application swiftbase will ask you which services you want to include in your project and since this tutorial is about Swiftbase database make sure to select the lambda service.
 
-Bootstrap your project by simply typing swiftbase in you terminal
+Bootstrap your project by simply typing swiftbase init in you terminal. For more information follow [Basics](intro).
 
 ```bash
-swiftbase
+swiftbase init
 ```
 
 ## Authentication
 
 When Swiftbase creating a project that includes SwiftStore the cli will print your authentication token that you will need to interact with the database.
 
-N.B The authentication token will only be printed once in the terminal so make sure to copy and store it somewhere safe.
+NB The authentication token will only be printed once in the terminal so make sure to copy and store it somewhere safe.
 
 ## Initialize swiftstore sdk
 
